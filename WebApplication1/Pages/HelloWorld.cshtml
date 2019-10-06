@@ -1,0 +1,25 @@
+@page
+@model WebApplication1.Pages.HelloWorldModel
+
+<h2>This is the homepage</h2>
+
+<h3>The time on the server is @DateTime.Now</h3>
+
+<p>Enter your name below</p>
+
+<br/>
+
+<div asp-validation-summary="All"></div>
+
+<form method="POST">
+    <div>Name: <input name="name" /></div>
+    <br/>
+    <input type="submit"/>
+</form>
+
+<br/>
+
+<div id="result">The name you have inputted is @this.Model.name</div>
+
+
+

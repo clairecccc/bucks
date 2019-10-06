@@ -1,0 +1,11 @@
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    /* Just to visualize the extent */
+    background: url(https://www.northeastern.edu/geo/dialogue/wp-content/uploads/sites/3/2015/08/coins.jpg);
+
+}
