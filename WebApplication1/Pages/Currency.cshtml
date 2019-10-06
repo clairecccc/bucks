@@ -1,45 +1,23 @@
 @page
 @model WebApplication1.Pages.Currency
 
-<head>
-    <style>
-    .fullscreen {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background: url(https://www.northeastern.edu/geo/dialogue/wp-content/uploads/sites/3/2015/08/coins.jpg);
-    }
-    .content {
-        align-content: center;
-    }
-        </style>
-    <title>
-        Currency Page
-    </title>
-</head>
+<div style="background-image: url(https://www.northeastern.edu/geo/dialogue/wp-content/uploads/sites/3/2015/08/coins.jpg)">
+<h2>Currency Converter</h2>
 
+<p>Convert your euro to sterling here!</p>
 
-<div class="fullscreen">
-    <div class="content">
-    <h2>Currency Converter</h2>
+<br/>
 
-    <p>Convert your euro to sterling here!</p>
+<div asp-validation-summary="All"></div>
 
+<form method="POST">
+    <div>Sterling <input name="inputvalue" /></div>
     <br/>
+    <input type="submit"/>
+</form>
 
-    <div asp-validation-summary="All"></div>
+<br/>
 
-    <form method="POST">
-        <div>Sterling <input name="inputValue"/></div>
-        <br/>
-        <input type="submit"/>
-    </form>
-
-    <br/>
-
-    <div id="result">Sterling amount is worth @this.Model.result euros</div>
-    </div>
+<div id="result">Sterling amount is worth @this.Model.result euros</div>
 
 </div>

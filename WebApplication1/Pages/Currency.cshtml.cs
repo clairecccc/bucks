@@ -12,13 +12,12 @@ namespace WebApplication1.Pages
     public class Currency : PageModel
     {
         public StringValues inputValue;
-        public  double result;
+        public double result;
         
         public void OnGet()
         {
             
         }
-        
         public void OnPost()
         {
             this.inputValue = Request.Form["inputValue"];
