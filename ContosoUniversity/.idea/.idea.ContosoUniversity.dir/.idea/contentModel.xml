@@ -6,6 +6,14 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="ContosoUniversity.csproj" t="IncludeRecursive" />
+      <e p="Data" t="Include">
+        <e p="SchoolContext.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Course.cs" t="Include" />
+        <e p="Enrollment.cs" t="Include" />
+        <e p="Student.cs" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp3.0" t="Include">
@@ -26,6 +34,18 @@
         <e p="Shared" t="Include">
           <e p="_Layout.cshtml" t="Include" />
           <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+        </e>
+        <e p="Students" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Create.cshtml.cs" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Delete.cshtml.cs" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Details.cshtml.cs" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Edit.cshtml.cs" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="Index.cshtml.cs" t="Include" />
         </e>
       </e>
       <e p="Program.cs" t="Include" />
