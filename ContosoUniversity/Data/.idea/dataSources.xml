@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="SQLite - DB.cu" uuid="dcd45c63-e422-48d2-902e-ee2c336524e5">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:/Documents/bucks/ContosoUniversity/DB.cu</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="CU.db" uuid="bae7604c-b744-40e8-82e1-f923a179381c">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../CU.db</jdbc-url>
+    </data-source>
+  </component>
+</project>

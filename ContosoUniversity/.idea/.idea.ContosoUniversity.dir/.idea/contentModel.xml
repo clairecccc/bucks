@@ -11,6 +11,11 @@
         <e p="DbInitializer.cs" t="Include" />
         <e p="SchoolContext.cs" t="Include" />
       </e>
+      <e p="Migrations" t="Include">
+        <e p="20191115122311_InitialCreate.cs" t="Include" />
+        <e p="20191115122311_InitialCreate.Designer.cs" t="Include" />
+        <e p="SchoolContextModelSnapshot.cs" t="Include" />
+      </e>
       <e p="Models" t="Include">
         <e p="Course.cs" t="Include" />
         <e p="Enrollment.cs" t="Include" />
