@@ -149,3 +149,4 @@
 /Users/ccu29/Documents/bucks/ContosoUniversity/obj/Debug/netcoreapp3.0/Razor/Pages/Students/Details.cshtml.g.cs
 /Users/ccu29/Documents/bucks/ContosoUniversity/obj/Debug/netcoreapp3.0/Razor/Pages/Students/Edit.cshtml.g.cs
 /Users/ccu29/Documents/bucks/ContosoUniversity/obj/Debug/netcoreapp3.0/Razor/Pages/Students/Index.cshtml.g.cs
+/Users/ccu29/Documents/bucks/ContosoUniversity/obj/Debug/netcoreapp3.0/Razor/Pages/About/About.cshtml.g.cs
