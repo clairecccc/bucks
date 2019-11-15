@@ -7,14 +7,15 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ContosoUniversity.Data;
 using ContosoUniversity.Models;
+using ContosoUniversity.Data;
 
 namespace ContosoUniversity.Pages.Students
 {
     public class CreateModel : PageModel
     {
-        private readonly ContosoUniversity.Data.SchoolContext _context;
+        private readonly SchoolContext _context;
 
-        public CreateModel(ContosoUniversity.Data.SchoolContext context)
+        public CreateModel(SchoolContext context)
         {
             _context = context;
         }
@@ -36,10 +37,19 @@ namespace ContosoUniversity.Pages.Students
                 return Page();
             }
 
-            _context.Students.Add(Student);
-            await _context.SaveChangesAsync();
+            var emptyStudent = new Student();
 
-            return RedirectToPage("./Index");
+            if (await TryUpdateModelAsync<Student>(
+                emptyStudent,
+                "student",   // Prefix for form value.
+                s => s.FirstMidName, s => s.LastName, s => s.EnrollmentDate))
+            {
+                _context.Students.Add(emptyStudent);
+                await _context.SaveChangesAsync();
+                return RedirectToPage("./Index");
+            }
+
+            return null;
         }
     }
 }

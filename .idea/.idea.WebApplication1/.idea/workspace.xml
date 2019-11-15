@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b435af3-028b-41e7-9e36-6a87e8071e3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/Pages/Currency.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Pages/Currency.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/Pages/Currency.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Pages/Currency.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp2.2/WebApplication1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp2.2/WebApplication1.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp2.2/WebApplication1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp2.2/WebApplication1.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp2.2/Razor/Pages/Currency.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp2.2/Razor/Pages/Currency.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp2.2/WebApplication1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp2.2/WebApplication1.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp2.2/WebApplication1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp2.2/WebApplication1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/WebApplication1.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/WebApplication1.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/WebApplication1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/WebApplication1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/WebApplication1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/WebApplication1.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +27,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp2.2/Razor/Pages/Currency.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp2.2/Razor/Pages/HelloWorld.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication1/Pages/Currency.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication1/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication1/Pages/HelloWorld.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication1/Pages/HelloWorld.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication1/Pages/Currency.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication1/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication1/Pages/HelloWorld.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication1/Pages/HelloWorld.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp2.2/Razor/Pages/HelloWorld.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication1/obj/Debug/netcoreapp2.2/Razor/Pages/Currency.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -117,20 +116,23 @@
       <option name="presentableId" value="Default" />
       <updated>1570203105624</updated>
       <workItem from="1570203106907" duration="12033000" />
+      <workItem from="1570716209956" duration="1735000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

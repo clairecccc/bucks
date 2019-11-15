@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{9602819E-388F-45C7-BC8B-EAA23F7030AB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApplication1/WebApplication1.csproj">
+    <Files>
+      <File FileName="WebApplication1/Pages/Currency.cshtml" />
+      <File FileName="WebApplication1/WebApplication1.csproj" Line="1" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApplication1" expanded="True">
+            <Node name="WebApplication1" expanded="True">
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

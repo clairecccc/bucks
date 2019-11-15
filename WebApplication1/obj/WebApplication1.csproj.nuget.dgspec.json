@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/clarkie/RiderProjects/WebApplication1/WebApplication1/WebApplication1.csproj": {}
+    "/Users/ccu29/Documents/bucks/WebApplication1/WebApplication1.csproj": {}
   },
   "projects": {
-    "/Users/clarkie/RiderProjects/WebApplication1/WebApplication1/WebApplication1.csproj": {
+    "/Users/ccu29/Documents/bucks/WebApplication1/WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/clarkie/RiderProjects/WebApplication1/WebApplication1/WebApplication1.csproj",
+        "projectUniqueName": "/Users/ccu29/Documents/bucks/WebApplication1/WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "/Users/clarkie/RiderProjects/WebApplication1/WebApplication1/WebApplication1.csproj",
-        "packagesPath": "/Users/clarkie/.nuget/packages/",
-        "outputPath": "/Users/clarkie/RiderProjects/WebApplication1/WebApplication1/obj/",
+        "projectPath": "/Users/ccu29/Documents/bucks/WebApplication1/WebApplication1.csproj",
+        "packagesPath": "/Users/ccu29/.nuget/packages/",
+        "outputPath": "/Users/ccu29/Documents/bucks/WebApplication1/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/Users/clarkie/.dotnet/sdk/NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/clarkie/.config/NuGet/NuGet.Config"
+          "/Users/ccu29/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -58,10 +58,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

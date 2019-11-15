@@ -16,3 +16,4 @@ namespace ContosoUniversity.Models
         public Student Student { get; set; }
     }
 }
+

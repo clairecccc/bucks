@@ -6,12 +6,17 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="ContosoUniversity.csproj" t="IncludeRecursive" />
+      <e p="CU.db" t="Include" />
       <e p="Data" t="Include">
+        <e p="DbInitializer.cs" t="Include" />
         <e p="SchoolContext.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="Course.cs" t="Include" />
         <e p="Enrollment.cs" t="Include" />
+        <e p="SchoolViewModels" t="Include">
+          <e p="EnrollmentDateGroup.cs" t="Include" />
+        </e>
         <e p="Student.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
@@ -25,6 +30,10 @@
       <e p="Pages" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />
         <e p="_ViewStart.cshtml" t="Include" />
+        <e p="About" t="Include">
+          <e p="About.cshtml" t="Include" />
+          <e p="About.cshtml.cs" t="Include" />
+        </e>
         <e p="Error.cshtml" t="Include" />
         <e p="Error.cshtml.cs" t="Include" />
         <e p="Index.cshtml" t="Include" />
@@ -48,6 +57,7 @@
           <e p="Index.cshtml.cs" t="Include" />
         </e>
       </e>
+      <e p="PaginatedList.cs" t="Include" />
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />

@@ -2,36 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4813b234-635f-416e-aace-da44309210d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PaginatedList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.idea.WebApplication1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.WebApplication1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ContosoUniversity.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContosoUniversity.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ContosoUniversity.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContosoUniversity.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContosoUniversity.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ContosoUniversity.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Enrollment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Enrollment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Students/Create.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Students/Create.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Students/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Students/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Students/Delete.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Students/Delete.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Students/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Students/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Students/Details.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Students/Details.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Students/Edit.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Students/Edit.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Students/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Students/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Students/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Students/Index.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/ContosoUniversity.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ContosoUniversity.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/ContosoUniversity.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ContosoUniversity.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/ContosoUniversity.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ContosoUniversity.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Pages/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Pages/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Pages/Students/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Pages/Students/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Pages/Students/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Pages/Students/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Pages/Students/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/Razor/Pages/Students/Index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebApplication1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication1/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebApplication1/WebApplication1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication1/WebApplication1.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebApplication1/bin/Debug/netcoreapp2.2/WebApplication1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication1/bin/Debug/netcoreapp2.2/WebApplication1.Views.dll" afterDir="false" />
@@ -66,20 +67,26 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Pages/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PaginatedList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Course.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Enrollment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/DbInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/SchoolViewModels/EnrollmentDateGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Students/Delete.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Students/Create.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Students/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pages/Students/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pages/Students/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Students/Edit.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Students/Details.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pages/Students/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Students/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Students/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -92,16 +99,26 @@
       <list>
         <option value="$PROJECT_DIR$/Models/Models/Students.cs" />
         <option value="$PROJECT_DIR$/Models/Enrollments.cs" />
-        <option value="$PROJECT_DIR$/Data/DbInitializer.cs" />
         <option value="$PROJECT_DIR$/Pages/Index.cshtml" />
         <option value="$PROJECT_DIR$/Models/Student.cs" />
-        <option value="$PROJECT_DIR$/Models/Enrollment.cs" />
         <option value="$PROJECT_DIR$/Models/Course.cs" />
-        <option value="$PROJECT_DIR$/appsettings.json" />
-        <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Data/SchoolContext.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Pages/Students/Delete.cshtml" />
+        <option value="$PROJECT_DIR$/Pages/Students/Details.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Pages/Students/Delete.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Models/Enrollment.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Pages/Students/Details.cshtml" />
+        <option value="$PROJECT_DIR$/Pages/Students/Edit.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Pages/Students/Create.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Data/DbInitializer.cs" />
+        <option value="$PROJECT_DIR$/PaginatedList.cs" />
+        <option value="$PROJECT_DIR$/Pages/Students/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Models/SchoolViewModels/EnrollmentDateGroup.cs" />
+        <option value="$PROJECT_DIR$/Pages/Students/Index.cshtml.cs" />
       </list>
     </option>
   </component>
@@ -183,7 +200,10 @@
       <workItem from="1572622294423" duration="77000" />
       <workItem from="1572622378316" duration="792000" />
       <workItem from="1572631033513" duration="593000" />
-      <workItem from="1573210357634" duration="4689000" />
+      <workItem from="1573210357634" duration="14503000" />
+      <workItem from="1573314388417" duration="831000" />
+      <workItem from="1573650527689" duration="1199000" />
+      <workItem from="1573810046104" duration="5569000" />
     </task>
     <servers />
   </component>
@@ -228,6 +248,32 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Pages/Students/Details.cshtml.cs</url>
+          <line>36</line>
+          <properties documentPath="$PROJECT_DIR$/Pages/Students/Details.cshtml.cs" initialLine="36">
+            <startOffsets>
+              <option value="1009" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1029" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Pages/Students/Index.cshtml.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/Pages/Students/Index.cshtml.cs" initialLine="17">
+            <startOffsets>
+              <option value="498" />
+            </startOffsets>
+            <endOffsets>
+              <option value="517" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
