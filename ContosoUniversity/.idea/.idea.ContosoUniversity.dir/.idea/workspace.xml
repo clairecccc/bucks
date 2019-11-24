@@ -4,17 +4,21 @@
     <list default="true" id="4813b234-635f-416e-aace-da44309210d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ContosoUniversity.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContosoUniversity.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ContosoUniversity.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContosoUniversity.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CU.db" beforeDir="false" afterPath="$PROJECT_DIR$/CU.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CU.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/DbInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DbInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/SchoolContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/SchoolContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20191115122311_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20191115122311_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/SchoolContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/SchoolContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Course.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Course.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Enrollment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Enrollment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Student.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Students/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Students/Index.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/ContosoUniversity.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ContosoUniversity.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/ContosoUniversity.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ContosoUniversity.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/ContosoUniversity.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ContosoUniversity.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +42,13 @@
     <setting file="file://$PROJECT_DIR$/Pages/About/About.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/About/About.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/SchoolViewModels/EnrollmentDateGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/CourseAssignment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Department.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Students/Delete.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/OfficeAssignment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Students/Create.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Instructor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Students/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Students/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Students/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -62,27 +70,31 @@
         <option value="$PROJECT_DIR$/Models/Models/Students.cs" />
         <option value="$PROJECT_DIR$/Models/Enrollments.cs" />
         <option value="$PROJECT_DIR$/Pages/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Models/Student.cs" />
-        <option value="$PROJECT_DIR$/Models/Course.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/Data/SchoolContext.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Pages/Students/Delete.cshtml" />
         <option value="$PROJECT_DIR$/Pages/Students/Details.cshtml.cs" />
         <option value="$PROJECT_DIR$/Pages/Students/Delete.cshtml.cs" />
-        <option value="$PROJECT_DIR$/Models/Enrollment.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Pages/Students/Details.cshtml" />
         <option value="$PROJECT_DIR$/Pages/Students/Edit.cshtml.cs" />
         <option value="$PROJECT_DIR$/Pages/Students/Create.cshtml.cs" />
         <option value="$PROJECT_DIR$/PaginatedList.cs" />
-        <option value="$PROJECT_DIR$/Pages/Students/Index.cshtml" />
         <option value="$PROJECT_DIR$/Models/SchoolViewModels/EnrollmentDateGroup.cs" />
-        <option value="$PROJECT_DIR$/Pages/Students/Index.cshtml.cs" />
         <option value="$PROJECT_DIR$/Pages/About.cshtml" />
         <option value="$PROJECT_DIR$/Pages/About/About.cshtml.cs" />
         <option value="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Pages/Students/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Pages/Students/Index.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Models/Instructor.cs" />
+        <option value="$PROJECT_DIR$/Models/OfficeAssignment.cs" />
+        <option value="$PROJECT_DIR$/Models/Course.cs" />
+        <option value="$PROJECT_DIR$/Models/Department.cs" />
+        <option value="$PROJECT_DIR$/Models/Enrollment.cs" />
+        <option value="$PROJECT_DIR$/Models/CourseAssignment.cs" />
+        <option value="$PROJECT_DIR$/Data/SchoolContext.cs" />
         <option value="$PROJECT_DIR$/Data/DbInitializer.cs" />
+        <option value="$PROJECT_DIR$/Models/Student.cs" />
       </list>
     </option>
   </component>
@@ -167,7 +179,9 @@
       <workItem from="1573210357634" duration="14503000" />
       <workItem from="1573314388417" duration="831000" />
       <workItem from="1573650527689" duration="1199000" />
-      <workItem from="1573810046104" duration="7040000" />
+      <workItem from="1573810046104" duration="8460000" />
+      <workItem from="1573830873667" duration="1441000" />
+      <workItem from="1574594388126" duration="6962000" />
     </task>
     <servers />
   </component>
@@ -225,19 +239,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Pages/Students/Index.cshtml.cs</url>
-          <line>17</line>
-          <properties documentPath="$PROJECT_DIR$/Pages/Students/Index.cshtml.cs" initialLine="17">
-            <startOffsets>
-              <option value="498" />
-            </startOffsets>
-            <endOffsets>
-              <option value="517" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -7,18 +7,24 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="ContosoUniversity.csproj" t="IncludeRecursive" />
       <e p="CU.db" t="Include" />
+      <e p="CU.db-shm" t="Include" />
+      <e p="CU.db-wal" t="Include" />
       <e p="Data" t="Include">
         <e p="DbInitializer.cs" t="Include" />
         <e p="SchoolContext.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">
-        <e p="20191115122311_InitialCreate.cs" t="Include" />
-        <e p="20191115122311_InitialCreate.Designer.cs" t="Include" />
+        <e p="20191124160338_ComplexDataModel.cs" t="Include" />
+        <e p="20191124160338_ComplexDataModel.Designer.cs" t="Include" />
         <e p="SchoolContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="Course.cs" t="Include" />
+        <e p="CourseAssignment.cs" t="Include" />
+        <e p="Department.cs" t="Include" />
         <e p="Enrollment.cs" t="Include" />
+        <e p="Instructor.cs" t="Include" />
+        <e p="OfficeAssignment.cs" t="Include" />
         <e p="SchoolViewModels" t="Include">
           <e p="EnrollmentDateGroup.cs" t="Include" />
         </e>
