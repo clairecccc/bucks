@@ -10,7 +10,7 @@ namespace ContosoUniversity.Models
         public int ID { get; set; }
         [Required]
         [StringLength(50)]
-        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$"), ]
+        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$", ErrorMessage = "Last name must start with a capital letter and only include letters."),  ]
         [Display(Name = "Last Name")]
         public string LastName { get; set; }
         [Required]
