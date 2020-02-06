@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4813b234-635f-416e-aace-da44309210d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ContosoUniversity.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContosoUniversity.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ContosoUniversity.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContosoUniversity.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CU.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DbInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DbInitializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/SchoolContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/SchoolContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20191115122311_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20191115122311_InitialCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/SchoolContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/SchoolContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Course.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Course.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Enrollment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Enrollment.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Student.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Students/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Students/Index.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/ContosoUniversity.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/ContosoUniversity.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +166,7 @@
       <workItem from="1573650527689" duration="1199000" />
       <workItem from="1573810046104" duration="8460000" />
       <workItem from="1573830873667" duration="1441000" />
-      <workItem from="1574594388126" duration="6962000" />
+      <workItem from="1574594388126" duration="7453000" />
     </task>
     <servers />
   </component>
