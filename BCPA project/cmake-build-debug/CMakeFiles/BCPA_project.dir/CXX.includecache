@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ccu29/Documents/bucks/BCPA project/customer.h
+iostream
+-
+string
+-
+
+/Users/ccu29/Documents/bucks/BCPA project/main.cpp
+iostream
+-
+string
+-
+customer.h
+/Users/ccu29/Documents/bucks/BCPA project/customer.h
+

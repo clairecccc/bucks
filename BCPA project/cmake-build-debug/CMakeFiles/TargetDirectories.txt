@@ -1,0 +1,3 @@
+/Users/ccu29/Documents/bucks/BCPA project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ccu29/Documents/bucks/BCPA project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ccu29/Documents/bucks/BCPA project/cmake-build-debug/CMakeFiles/BCPA_project.dir
