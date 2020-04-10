@@ -3,4 +3,7 @@
 
 CMakeFiles/BCPA_project.dir/main.cpp.o: ../customer.h
 CMakeFiles/BCPA_project.dir/main.cpp.o: ../main.cpp
+CMakeFiles/BCPA_project.dir/main.cpp.o: ../show.h
+CMakeFiles/BCPA_project.dir/main.cpp.o: ../showSeat.h
+CMakeFiles/BCPA_project.dir/main.cpp.o: ../ticket.h
 

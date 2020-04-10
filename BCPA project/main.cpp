@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
-//#include "ticket.h"
-//#include "show.h"
+#include "ticket.h"
+#include "show.h"
 #include "customer.h"
-//#include "showSeat.h"
+#include "showSeat.h"
 
 using namespace std;
 
@@ -15,22 +15,60 @@ int main() {
     double e;
     char ch, terminator;
 
-//    showSeat SEAT;
+    showSeat SEAT;
     customer CUST;
-//    show SHOW;
-//    ticket * TICK;
-//
+    show SHOW;
+     ticket * TICK;
+
     CUST.getLogin();
-//    CUST.getProfileInfo(f, g, h);
+    //CUST.getProfileInfo(f, g, h);
 
     system("clear");
 
     cout << "\n~~~~~~~~~~~~~~~~~ MAIN MENU ~~~~~~~~~~~~~~~~\n" << endl;
     cout << " 1. Buy tickets for upcoming shows" << endl;
     cout << " 2. Log out\n" << endl;
-    cout << "Plese enter a menu choice number: ";
+    cout << "Please enter a menu choice number: ";
     cin.get(ch);
 
-//    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    while(ch!='1' && ch!='2') {
+        cin.clear();
+        cin.ignore(100, '\n');
+        cout << "Please select a valid menu choice number: ";
+        cin.get(ch);
+    }
+
+    if (ch == '2') {
+        return EXIT_SUCCESS;
+    }
+
+    do {
+        SHOW.selectShow(a, b);
+        // c = SHOW.selectTime();
+
+        do
+            {
+            cout << "\nAre you happy with your choice (Y = Yes, N = No)?: ";
+            cin.get(ch);
+                    }
+        while (ch != 'Y' && ch != 'y' && ch != 'N' && ch != 'n');
+        cin.get(terminator);
+
+    }
+    while (ch == 'N' || ch == 'n');
+
+
+    SEAT.initialiseFloorPlan();
+    d = SEAT.getNumSeats();
+    // for 1 to d do {
+
+         e = SEAT.getSeatSelection();
+        // create ticket using SHOW.name, customer.name, e.row and e.column
+
+    //}
+
+
+
+    cout << "All done. Goodbye!" << endl;
+    return EXIT_SUCCESS;
 }

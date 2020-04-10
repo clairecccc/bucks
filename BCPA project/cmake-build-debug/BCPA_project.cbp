@@ -86,6 +86,12 @@
 		<Unit filename="/Users/ccu29/Documents/bucks/BCPA project/main.cpp">
 			<Option target="BCPA_project"/>
 		</Unit>
+		<Unit filename="/Users/ccu29/Documents/bucks/BCPA project/show.h">
+			<Option target="BCPA_project"/>
+		</Unit>
+		<Unit filename="/Users/ccu29/Documents/bucks/BCPA project/showSeat.h">
+			<Option target="BCPA_project"/>
+		</Unit>
 		<Unit filename="/Users/ccu29/Documents/bucks/BCPA project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

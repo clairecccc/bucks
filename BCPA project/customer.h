@@ -1,9 +1,5 @@
 #include <iostream>
 #include <string>
-//#include "ticket.h"
-//#include "show.h"
-//#include "customer.h"
-//#include "showSeat.h"
 
 using namespace std;
 
