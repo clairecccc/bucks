@@ -1,30 +1,33 @@
 #include <iostream>
 #include <string>
 #include "show.h"
+#include "user.h"
 
 using namespace std;
 
-class ticket
+class Ticket
 {
 public:
-    ticket(Show show);
-    ~ticket();
+    Ticket(Show show, User user);
+    ~Ticket();
     void print();
 
 protected:
     Show *show;
+    User *user;
 };
 
-ticket :: ticket(Show s)
+Ticket :: Ticket(Show s, User u)
 {
     show = &s;
+    user = &u;
 }
 
-ticket :: ~ticket()
+Ticket :: ~Ticket()
 {
 }
 
-void ticket :: print()
+void Ticket :: print()
 {
     system ("clear");
 
@@ -37,5 +40,5 @@ void ticket :: print()
 
 //    cout << "Number of seats: " <<numSeats <<endl;
 //    cout << "Total cost: " << (char)156 << this -> cost() << endl;
-//    cout << "Ticket Purchaser: " << fName << " " << sName << endl;
+    cout << "Ticket Purchaser: " << this->user->getName() << endl;
 }

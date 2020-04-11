@@ -3,4 +3,4 @@ project(BCPA_project)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(BCPA_project main.cpp customer.h show.h showSeat.h)
+add_executable(BCPA_project main.cpp user.h show.h showSeat.h)

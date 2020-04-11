@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ccu29/Documents/bucks/BCPA project/customer.h">
-			<Option target="BCPA_project"/>
-		</Unit>
 		<Unit filename="/Users/ccu29/Documents/bucks/BCPA project/main.cpp">
 			<Option target="BCPA_project"/>
 		</Unit>
@@ -90,6 +87,9 @@
 			<Option target="BCPA_project"/>
 		</Unit>
 		<Unit filename="/Users/ccu29/Documents/bucks/BCPA project/showSeat.h">
+			<Option target="BCPA_project"/>
+		</Unit>
+		<Unit filename="/Users/ccu29/Documents/bucks/BCPA project/user.h">
 			<Option target="BCPA_project"/>
 		</Unit>
 		<Unit filename="/Users/ccu29/Documents/bucks/BCPA project/CMakeLists.txt">

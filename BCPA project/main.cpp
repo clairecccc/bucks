@@ -2,7 +2,7 @@
 #include <string>
 #include "ticket.h"
 #include "show.h"
-#include "customer.h"
+#include "user.h"
 #include "showSeat.h"
 
 using namespace std;
@@ -15,12 +15,12 @@ int main() {
     double e;
     char ch, terminator;
 
-    showSeat SEAT;
-    customer CUST;
-    Show SHOW;
+    ShowSeat showSeat;
+    User user;
+    Show show;
 //     ticket * TICK;
 
-    CUST.getLogin();
+    user.getLogin();
     //CUST.getProfileInfo(f, g, h);
 
     system("clear");
@@ -43,7 +43,7 @@ int main() {
     }
 
     do {
-        SHOW.selectShow(a, b);
+        show.selectShow(a, b);
         // c = SHOW.selectTime();
 
         do
@@ -58,15 +58,15 @@ int main() {
     while (ch == 'N' || ch == 'n');
 
 
-    SEAT.initialiseFloorPlan();
-    numOfSeats = SEAT.getNumSeats();
+    showSeat.initialiseFloorPlan();
+    numOfSeats = showSeat.getNumSeats();
     // for 1 to numOfSeats do {
 
     for (int seat = 0; seat < numOfSeats; seat ++) {
-        e = SEAT.getSeatSelection();
+        e = showSeat.getSeatSelection(); // [rowNumber, columnNumber]
 
-        ticket TICK(SHOW);
-        TICK.print();
+        Ticket ticket(show, user);
+        ticket.print();
     }
 
 

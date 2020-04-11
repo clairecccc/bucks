@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/ccu29/Documents/bucks/BCPA project/customer.h
-iostream
--
-string
--
-
 /Users/ccu29/Documents/bucks/BCPA project/main.cpp
 iostream
 -
@@ -21,8 +15,8 @@ ticket.h
 /Users/ccu29/Documents/bucks/BCPA project/ticket.h
 show.h
 /Users/ccu29/Documents/bucks/BCPA project/show.h
-customer.h
-/Users/ccu29/Documents/bucks/BCPA project/customer.h
+user.h
+/Users/ccu29/Documents/bucks/BCPA project/user.h
 showSeat.h
 /Users/ccu29/Documents/bucks/BCPA project/showSeat.h
 
@@ -45,4 +39,12 @@ string
 -
 show.h
 /Users/ccu29/Documents/bucks/BCPA project/show.h
+user.h
+/Users/ccu29/Documents/bucks/BCPA project/user.h
+
+/Users/ccu29/Documents/bucks/BCPA project/user.h
+iostream
+-
+string
+-
 

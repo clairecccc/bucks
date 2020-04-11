@@ -3,11 +3,11 @@
 
 using namespace std;
 
-class showSeat
+class ShowSeat
 {
 public:
-    showSeat();
-    ~showSeat();
+    ShowSeat();
+    ~ShowSeat();
     void initialiseFloorPlan();
     int getNumSeats();
     double getSeatSelection();
@@ -24,7 +24,7 @@ protected:
 
 };
 
-showSeat :: showSeat()
+ShowSeat :: ShowSeat()
 {
     for(int row = 0; row <7; row ++)
         for(int column= 0; column < 6; column++)
@@ -35,18 +35,18 @@ showSeat :: showSeat()
         price = 0;
 }
 
-showSeat :: ~showSeat()
+ShowSeat :: ~ShowSeat()
 {
 }
 
-void showSeat :: initialiseFloorPlan()
+void ShowSeat :: initialiseFloorPlan()
 {
     for(int row= 0; row < 7; row++)
         for(int column = 0; column <6; column++)
             floorPlan[row][column] = 'A';
 }
 
-int showSeat :: getNumSeats() {
+int ShowSeat :: getNumSeats() {
     system("clear");
     cout << "\n SELECT SEATS INTERACTIVELY\n" << endl;
 
@@ -64,7 +64,7 @@ int showSeat :: getNumSeats() {
     return numSeats;
 }
 
-double showSeat :: getSeatSelection()
+double ShowSeat :: getSeatSelection()
 {
     int selectedColumn;
     int selectedRow;
@@ -77,7 +77,7 @@ double showSeat :: getSeatSelection()
     displayFloorPlan(7,6);
 }
 
-void showSeat :: displayFloorPlan(int r, int c)
+void ShowSeat :: displayFloorPlan(int r, int c)
 {
     cout << "\nNow you can select your seats using the table and key below\n";
     cout << "\nKey\n";
@@ -108,22 +108,6 @@ void showSeat :: displayFloorPlan(int r, int c)
         cout << endl;
     }
     cout << endl;
-
-
-
-
-
-//    for(int row= 0; row < r; row++) {
-//        for (int column = 0; column < c; column++) {
-//            cout << " column ";
-//            cout << column;
-//            cout << " row ";
-//            cout << row;
-//            cout << " - ";
-//            cout << floorPlan[row][column];
-//            cout << endl;
-//        }
-//    }
 }
 
 

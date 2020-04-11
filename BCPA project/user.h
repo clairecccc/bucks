@@ -1,14 +1,18 @@
+#ifndef USER_H
+#define USER_H
+
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-class customer
+class User
 {
 public:
-    customer();
-    ~customer();
+    User();
+    ~User();
     void getLogin();
+    string getName();
 
 protected:
     string fName;
@@ -16,19 +20,24 @@ protected:
     string address;
 };
 
-customer:: customer()
+User:: User()
 {
-    fName = "";
-    sName = "";
+    fName = "Joe";
+    sName = "Bloggs";
     address = "";
 }
 
-customer :: ~customer()
+User :: ~User()
 {
 
 }
 
-void customer :: getLogin()
+string User :: getName()
+{
+    return this->fName + ' ' + this -> sName;
+}
+
+void User :: getLogin()
 {
     string username;
     string password;
@@ -57,7 +66,4 @@ void customer :: getLogin()
     }
 }
 
-//#ifndef BCPA_PROJECT_CUSTOMER_H
-//#define BCPA_PROJECT_CUSTOMER_H
-//
-//#endif //BCPA_PROJECT_CUSTOMER_H
+#endif
