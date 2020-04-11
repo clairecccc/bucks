@@ -15,15 +15,15 @@ public:
     string getName();
 
 protected:
-    string fName;
-    string sName;
+    string firstName;
+    string surName;
     string address;
 };
 
 User:: User()
 {
-    fName = "Joe";
-    sName = "Bloggs";
+    firstName = "Joe";
+    surName = "Bloggs";
     address = "";
 }
 
@@ -34,7 +34,7 @@ User :: ~User()
 
 string User :: getName()
 {
-    return this->fName + ' ' + this -> sName;
+    return this->firstName + ' ' + this -> surName;
 }
 
 void User :: getLogin()
