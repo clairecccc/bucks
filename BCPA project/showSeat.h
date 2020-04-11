@@ -68,11 +68,15 @@ double ShowSeat :: getSeatSelection()
 {
     int selectedColumn;
     int selectedRow;
-    displayFloorPlan(7,6);
-    cout << "Please enter a row number (1-7) for seat 1: ";
-    cin >> selectedRow;
-    cout << "Please enter a column number (1-6) for seat 1: ";
-    cin >> selectedColumn;
+    do{
+        displayFloorPlan(7,6);
+        cout << "Please enter a row number (1-7) for seat 1: ";
+        cin >> selectedRow;
+        cout << "Please enter a column number (1-6) for seat 1: ";
+        cin >> selectedColumn;
+    }
+    while (floorPlan[selectedRow-1][selectedColumn-1] != 'A');
+
     floorPlan[selectedRow-1][selectedColumn-1] = 'H';
     displayFloorPlan(7,6);
 }

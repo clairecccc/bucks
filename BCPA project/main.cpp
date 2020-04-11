@@ -18,7 +18,6 @@ int main() {
     ShowSeat showSeat;
     User user;
     Show show;
-//     ticket * TICK;
 
     user.getLogin();
     //CUST.getProfileInfo(f, g, h);
@@ -60,22 +59,13 @@ int main() {
 
     showSeat.initialiseFloorPlan();
     numOfSeats = showSeat.getNumSeats();
-    // for 1 to numOfSeats do {
 
     for (int seat = 0; seat < numOfSeats; seat ++) {
         e = showSeat.getSeatSelection(); // [rowNumber, columnNumber]
-
-        Ticket ticket(show, user);
-        ticket.print();
     }
 
-
-
-        // create ticket using SHOW.name, customer.name, e.row and e.column
-
-    //}
-
-
+    Ticket ticket(show, user, numOfSeats);
+    ticket.print();
 
     cout << "All done. Goodbye!" << endl;
     return EXIT_SUCCESS;
