@@ -1,35 +1,44 @@
+#ifndef SHOW_H
+#define SHOW_H
+
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-class show
+class Show
 {
 public:
-    show();
-    ~show();
+    Show();
+    ~Show();
     void selectShow(string &showName, string &showDate);
-    string selectTime();
+    string getShowName();
+    string getShowDate();
 
 protected:
     string showName;
     string showDate;
-    string showTime;
 };
 
-show:: show()
+Show:: Show()
 {
     showName = "";
     showDate = "";
-    showTime = "";
 }
 
-show :: ~show()
+Show :: ~Show()
 {
 
 }
 
-void show :: selectShow(string &showName, string &showDate)
+string Show :: getShowName() {
+    return this->showName;
+}
+string Show :: getShowDate() {
+    return this->showDate;
+}
+
+void Show :: selectShow(string &showName, string &showDate)
 {
     char ch;
     char terminator;
@@ -71,7 +80,4 @@ void show :: selectShow(string &showName, string &showDate)
 
 }
 
-//#ifndef BCPA_PROJECT_CUSTOMER_H
-//#define BCPA_PROJECT_CUSTOMER_H
-//
-//#endif //BCPA_PROJECT_CUSTOMER_H
+#endif

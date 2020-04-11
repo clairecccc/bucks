@@ -66,11 +66,25 @@ int showSeat :: getNumSeats() {
 
 double showSeat :: getSeatSelection()
 {
+    int selectedColumn;
+    int selectedRow;
+    displayFloorPlan(7,6);
+    cout << "Please enter a row number (1-7) for seat 1: ";
+    cin >> selectedRow;
+    cout << "Please enter a column number (1-6) for seat 1: ";
+    cin >> selectedColumn;
+    floorPlan[selectedRow-1][selectedColumn-1] = 'H';
     displayFloorPlan(7,6);
 }
 
 void showSeat :: displayFloorPlan(int r, int c)
 {
+    cout << "\nNow you can select your seats using the table and key below\n";
+    cout << "\nKey\n";
+    cout << "A = Available seat, H = Held seat" << endl;
+    cout << "-----------------------------------";
+    cout << endl;
+    cout << endl;
     // write out headers of columns
     cout << "   |";
     for (int column = 0; column < c; column ++) {

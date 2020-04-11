@@ -11,14 +11,14 @@ using namespace std;
 
 int main() {
     string a, b, c, f, g, h;
-    int d;
+    int numOfSeats;
     double e;
     char ch, terminator;
 
     showSeat SEAT;
     customer CUST;
-    show SHOW;
-     ticket * TICK;
+    Show SHOW;
+//     ticket * TICK;
 
     CUST.getLogin();
     //CUST.getProfileInfo(f, g, h);
@@ -59,10 +59,18 @@ int main() {
 
 
     SEAT.initialiseFloorPlan();
-    d = SEAT.getNumSeats();
-    // for 1 to d do {
+    numOfSeats = SEAT.getNumSeats();
+    // for 1 to numOfSeats do {
 
-         e = SEAT.getSeatSelection();
+    for (int seat = 0; seat < numOfSeats; seat ++) {
+        e = SEAT.getSeatSelection();
+
+        ticket TICK(SHOW);
+        TICK.print();
+    }
+
+
+
         // create ticket using SHOW.name, customer.name, e.row and e.column
 
     //}
