@@ -13,6 +13,7 @@ public:
     ~User();
     void getLogin();
     string getName();
+    string getAddress();
 
 protected:
     string firstName;
@@ -24,7 +25,7 @@ User:: User()
 {
     firstName = "Joe";
     surName = "Bloggs";
-    address = "";
+    address = "1, Blue Street, London, SW1 4EE";
 }
 
 User :: ~User()
@@ -35,6 +36,11 @@ User :: ~User()
 string User :: getName()
 {
     return this->firstName + ' ' + this -> surName;
+}
+
+string User :: getAddress()
+{
+    return this->address;
 }
 
 void User :: getLogin()
@@ -48,9 +54,9 @@ void User :: getLogin()
     cout << "Enter username: ";
     getline(cin, username);
 
-    while(username.length() > 10)
+    while(username.length() < 3)
     {
-        cout << "Your username should be no more than 10 characters long." << endl;
+        cout << "Your username should be more than 3 characters long." << endl;
         cout << "Please re-enter your username: ";
         getline(cin, username);
     }
@@ -58,9 +64,9 @@ void User :: getLogin()
     cout << "Enter password: ";
     getline(cin, password);
 
-    while(password.length() > 10)
+    while(password.length() < 3)
     {
-        cout << "Your password should be no more than 10 characters long." << endl;
+        cout << "Your password should be no more than 3 characters long." << endl;
         cout << "Please re-enter your password: ";
         getline(cin, password);
     }

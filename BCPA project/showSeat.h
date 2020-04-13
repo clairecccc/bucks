@@ -48,7 +48,7 @@ void ShowSeat :: initialiseFloorPlan()
 
 int ShowSeat :: getNumSeats() {
     system("clear");
-    cout << "\n SELECT SEATS INTERACTIVELY\n" << endl;
+    cout << "\n YOU CAN NOW SELECT SEATS INTERACTIVELY USING THE THEATRE SEATING PLAN. JUST SELECT WHICH SEAT/S YOU WOULD LIKE TO BOOK\n" << endl;
 
 
 
@@ -56,7 +56,7 @@ int ShowSeat :: getNumSeats() {
     {
         cin.clear();
         cin.ignore(100, '\n');
-        cout << "How many tickets would you like to purchase (Max. 2)?: ";
+        cout << "How many tickets would you like to book (Max. 2)?: ";
         cin >> numSeats;
         cout << endl;
     }

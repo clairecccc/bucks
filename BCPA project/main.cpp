@@ -20,7 +20,6 @@ int main() {
     Show show;
 
     user.getLogin();
-    //CUST.getProfileInfo(f, g, h);
 
     system("clear");
 
@@ -67,6 +66,6 @@ int main() {
     Ticket ticket(show, user, numOfSeats);
     ticket.print();
 
-    cout << "All done. Goodbye!" << endl;
+    cout << "Thank you for your booking. A invoice is on it's way to you." << endl;
     return EXIT_SUCCESS;
 }
