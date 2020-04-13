@@ -48,6 +48,6 @@ void Ticket :: print() {
     cout << "Date: " << this->show.getShowDate() << endl;
     cout << "Number of seats: " << this->numOfSeats << endl;
     cout << "Total cost of tickets: £" << this->getTicketPrice() << endl;
-    cout << "Ticket Purchaser: " << this->user.getName() << endl;
+    cout << "Customer: " << this->user.getName() << endl;
     cout << "Address to invoice: " << this->user.getAddress() << endl;
 }

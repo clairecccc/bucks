@@ -7,8 +7,6 @@
 
 using namespace std;
 
-
-
 int main() {
     string a, b, c, f, g, h;
     int numOfSeats;
@@ -29,7 +27,7 @@ int main() {
     cout << "Please enter a menu choice number: ";
     cin.get(ch);
 
-    while(ch!='1' && ch!='2') {
+    while (ch != '1' && ch != '2') {
         cin.clear();
         cin.ignore(100, '\n');
         cout << "Please select a valid menu choice number: ";
@@ -42,24 +40,19 @@ int main() {
 
     do {
         show.selectShow(a, b);
-        // c = SHOW.selectTime();
-
-        do
-            {
+        do {
             cout << "\nAre you happy with your choice (Y = Yes, N = No)?: ";
             cin.get(ch);
-                    }
-        while (ch != 'Y' && ch != 'y' && ch != 'N' && ch != 'n');
+        } while (ch != 'Y' && ch != 'y' && ch != 'N' && ch != 'n');
         cin.get(terminator);
 
-    }
-    while (ch == 'N' || ch == 'n');
+    } while (ch == 'N' || ch == 'n');
 
 
     showSeat.initialiseFloorPlan();
     numOfSeats = showSeat.getNumSeats();
 
-    for (int seat = 0; seat < numOfSeats; seat ++) {
+    for (int seat = 0; seat < numOfSeats; seat++) {
         e = showSeat.getSeatSelection(); // [rowNumber, columnNumber]
     }
 

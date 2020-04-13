@@ -81,8 +81,7 @@ double ShowSeat :: getSeatSelection()
     displayFloorPlan(7,6);
 }
 
-void ShowSeat :: displayFloorPlan(int r, int c)
-{
+void ShowSeat :: displayFloorPlan(int r, int c) {
     cout << "\nNow you can select your seats using the table and key below\n";
     cout << "\nKey\n";
     cout << "A = Available seat, H = Held seat" << endl;
@@ -91,18 +90,18 @@ void ShowSeat :: displayFloorPlan(int r, int c)
     cout << endl;
     // write out headers of columns
     cout << "   |";
-    for (int column = 0; column < c; column ++) {
+    for (int column = 0; column < c; column++) {
         cout << " ";
-        cout << column +1;
+        cout << column + 1;
         cout << " |";
     }
     cout << endl;
 
 
-    for (int row = 0; row < r; row ++) {
+    for (int row = 0; row < r; row++) {
         cout << "--";
         cout << endl;
-        cout << row +1;
+        cout << row + 1;
         cout << "  ";
         for (int column = 0; column < c; column++) {
             cout << "  ";
@@ -114,9 +113,3 @@ void ShowSeat :: displayFloorPlan(int r, int c)
     cout << endl;
 }
 
-
-//
-//#ifndef BCPA_PROJECT_SHOWSEAT_H
-//#define BCPA_PROJECT_SHOWSEAT_H
-//
-//#endif //BCPA_PROJECT_SHOWSEAT_H
