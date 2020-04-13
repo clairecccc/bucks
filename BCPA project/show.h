@@ -14,29 +14,37 @@ public:
     void selectShow(string &showName, string &showDate);
     string getShowName();
     string getShowDate();
+    int getShowPrice();
 
 protected:
     string showName;
     string showDate;
+    int showPrice;
 };
 
 Show:: Show()
 {
     showName = "";
     showDate = "";
+    showPrice = 10; //default price for a ticket
 }
 
 Show :: ~Show()
 {
-
 }
 
 string Show :: getShowName() {
     return this->showName;
 }
+
 string Show :: getShowDate() {
     return this->showDate;
 }
+
+int Show :: getShowPrice() {
+    return this->showPrice;
+}
+
 
 void Show :: selectShow(string &showName, string &showDate)
 {
@@ -55,19 +63,19 @@ void Show :: selectShow(string &showName, string &showDate)
     cin.get(ch);
 
     while(ch!='1' && ch!='2' && ch!='3') {
-                cin.clear();
-                cin.ignore(100, '\n');
-                cout << "Please select a valid show number: ";
-                cin.get(ch);
-        }
+        cin.clear();
+        cin.ignore(100, '\n');
+        cout << "Please select a valid show number: ";
+        cin.get(ch);
+    }
 
     switch(ch)
     {
-        case '1' : showName = "The Lion King", showDate = "21/05/2020";
-        break;
-        case '2' : showName = "Cats", showDate = "22/05/2020";
+        case '1' : showName = "The Lion King", showDate = "21/05/2020", showPrice = 20;
             break;
-        case '3' : showName = "Fame", showDate = "23/07/2020";
+        case '2' : showName = "Cats", showDate = "22/05/2020", showPrice = 15;
+            break;
+        case '3' : showName = "Fame", showDate = "23/07/2020", showPrice = 30;
             break;
     }
 

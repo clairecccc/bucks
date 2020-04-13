@@ -66,6 +66,6 @@ int main() {
     Ticket ticket(show, user, numOfSeats);
     ticket.print();
 
-    cout << "Thank you for your booking. A invoice is on it's way to you." << endl;
+    cout << "Thank you for your booking. An invoice is on it's way to you." << endl;
     return EXIT_SUCCESS;
 }

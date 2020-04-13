@@ -11,13 +11,14 @@ public:
     Ticket(Show show, User user, int numOfSeats);
     ~Ticket();
     void print();
-    void setPrice(double price);
+
+private:
+    int getTicketPrice();
 
 protected:
     Show show;
     User user;
     int numOfSeats;
-    double totalCost;
 };
 
 Ticket :: Ticket(Show s, User u, int n)
@@ -31,6 +32,11 @@ Ticket :: ~Ticket()
 {
 }
 
+int Ticket :: getTicketPrice()
+{
+    return this->show.getShowPrice() * this-> numOfSeats;
+}
+
 void Ticket :: print() {
     system("clear");
 
@@ -41,7 +47,7 @@ void Ticket :: print() {
     cout << "Show: " << this->show.getShowName() << endl;
     cout << "Date: " << this->show.getShowDate() << endl;
     cout << "Number of seats: " << this->numOfSeats << endl;
-    // cout << "Total cost og your tickets: " << (char)156 << this -> cost() << endl;
+    cout << "Total cost of tickets: £" << this->getTicketPrice() << endl;
     cout << "Ticket Purchaser: " << this->user.getName() << endl;
     cout << "Address to invoice: " << this->user.getAddress() << endl;
 }
